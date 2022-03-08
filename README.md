@@ -1,6 +1,12 @@
 # Simple Storage
 
-> An electron-vue project
+An [electron-vue](https://github.com/SimulatedGREG/electron-vue) project build with [electronjs](https://www.electronjs.org/), [vuejs](https://vuejs.org/), [bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/) and [electron-db module](https://github.com/alexiusacademia/electron-db) as a simplified database making using of json file.
+
+> This project is built mainly for educational purposes.
+
+### Release
+
+The first version of Simple-Storage can be download [here](https://github.com/Manethpak/simple-storage/releases/download/v0.1/simple-storage.Setup.0.0.1.exe).
 
 #### Build Setup
 
