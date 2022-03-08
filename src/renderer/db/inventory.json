@@ -1,0 +1,16 @@
+{
+  "inventory": [
+    {
+      "name": "Laptop",
+      "weight": "2.5",
+      "number": "2",
+      "id": 1646652118959
+    },
+    {
+      "name": "idk",
+      "weight": "29.00",
+      "number": "80.12",
+      "id": 1646741014180
+    }
+  ]
+}

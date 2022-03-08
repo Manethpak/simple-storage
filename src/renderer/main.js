@@ -1,0 +1,26 @@
+import Vue from "vue";
+import Notifications from "vue-notification";
+import electronDB from "electron-db";
+import path from "path";
+
+import { userData } from "./resolve.js";
+import App from "./App";
+import router from "./router";
+import store from "./store";
+
+if (!process.env.IS_WEB) Vue.use(require("vue-electron"));
+Vue.config.productionTip = false;
+Vue.prototype.$db = electronDB;
+
+Vue.prototype.$userData = userData;
+Vue.prototype.$dbDir = path.join(userData, "db");
+
+/* eslint-disable no-new */
+Vue.use(Notifications);
+
+new Vue({
+  components: { App },
+  router,
+  store,
+  template: "<App/>",
+}).$mount("#app");

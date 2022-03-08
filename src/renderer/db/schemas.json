@@ -1,0 +1,46 @@
+{
+  "schemas": [
+    {
+      "name": "employee",
+      "fields": [
+        {
+          "id": 1646592016887,
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "id": 1646592024095,
+          "name": "age",
+          "type": "number"
+        },
+        {
+          "id": 1646592025293,
+          "name": "dob",
+          "type": "date"
+        }
+      ],
+      "id": 1646592032695
+    },
+    {
+      "name": "inventory",
+      "fields": [
+        {
+          "id": 1646650483578,
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "id": 1646650492605,
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "id": 1646650497441,
+          "name": "number",
+          "type": "number"
+        }
+      ],
+      "id": 1646650504159
+    }
+  ]
+}
