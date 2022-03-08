@@ -1,10 +1,10 @@
-# employee-entry
+# Simple Storage
 
 > An electron-vue project
 
 #### Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
